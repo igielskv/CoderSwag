@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9F09446B2440725200ED2EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09446A2440725200ED2EF8 /* AppDelegate.swift */; };
 		9F09446D2440725200ED2EF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09446C2440725200ED2EF8 /* SceneDelegate.swift */; };
-		9F09446F2440725200ED2EF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09446E2440725200ED2EF8 /* ViewController.swift */; };
+		9F09446F2440725200ED2EF8 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09446E2440725200ED2EF8 /* CategoriesViewController.swift */; };
 		9F0944722440725200ED2EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0944702440725200ED2EF8 /* Main.storyboard */; };
 		9F0944742440725300ED2EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0944732440725300ED2EF8 /* Assets.xcassets */; };
 		9F0944772440725300ED2EF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0944752440725300ED2EF8 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		9F0944672440725200ED2EF8 /* CoderSwag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoderSwag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F09446A2440725200ED2EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F09446C2440725200ED2EF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F09446E2440725200ED2EF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F09446E2440725200ED2EF8 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		9F0944712440725200ED2EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F0944732440725300ED2EF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0944762440725300ED2EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,39 @@
 		9F0944692440725200ED2EF8 /* CoderSwag */ = {
 			isa = PBXGroup;
 			children = (
+				9F094480244072E000ED2EF8 /* Views */,
+				9F09447F244072D500ED2EF8 /* Models */,
+				9F09447E2440727500ED2EF8 /* Controllers */,
 				9F09446A2440725200ED2EF8 /* AppDelegate.swift */,
 				9F09446C2440725200ED2EF8 /* SceneDelegate.swift */,
-				9F09446E2440725200ED2EF8 /* ViewController.swift */,
 				9F0944702440725200ED2EF8 /* Main.storyboard */,
 				9F0944732440725300ED2EF8 /* Assets.xcassets */,
 				9F0944752440725300ED2EF8 /* LaunchScreen.storyboard */,
 				9F0944782440725300ED2EF8 /* Info.plist */,
 			);
 			path = CoderSwag;
+			sourceTree = "<group>";
+		};
+		9F09447E2440727500ED2EF8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F09446E2440725200ED2EF8 /* CategoriesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F09447F244072D500ED2EF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F094480244072E000ED2EF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +127,7 @@
 				};
 			};
 			buildConfigurationList = 9F0944622440725200ED2EF8 /* Build configuration list for PBXProject "CoderSwag" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F09446F2440725200ED2EF8 /* ViewController.swift in Sources */,
+				9F09446F2440725200ED2EF8 /* CategoriesViewController.swift in Sources */,
 				9F09446B2440725200ED2EF8 /* AppDelegate.swift in Sources */,
 				9F09446D2440725200ED2EF8 /* SceneDelegate.swift in Sources */,
 			);
